@@ -1,7 +1,7 @@
 public class Recursion{
 
     public static int recursiveFunc(int k){
-        if (k>0){
+        if (k > 0){
             return k + (recursiveFunc(k-1));
         }else{
             return 0;
